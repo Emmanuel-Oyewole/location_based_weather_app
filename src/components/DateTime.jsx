@@ -1,6 +1,7 @@
 import { format } from "date-fns";
 import { useEffect, useState } from "react";
 
+// eslint-disable-next-line react/prop-types
 const DateTime = ({className}) => {
   const [dateTime, setDateTime] = useState({
     date: "",
